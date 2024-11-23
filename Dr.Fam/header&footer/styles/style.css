@@ -1,0 +1,80 @@
+@font-face {
+  src: url("./../font/B\ Yekan+.ttf");
+  font-family: "yekan";
+}
+@font-face {
+  src: url("./../font/B\ Yekan+\ Bold.ttf");
+  font-family: "yekanB";
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  /* width: 1440px; */
+  font-family: yekan;
+}
+#header {
+  background-color: #0071dc;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+#header #leftSide {
+  border: 1px solid white;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header #leftSide #auth {
+  background-color: #13bf2c;
+  width: 28%;
+  height: 50%;
+  border-radius: 8px;
+}
+#header #leftSide #searchBox {
+  background-color: #daf3fb;
+  width: 50%;
+  height: 50%;
+  border-radius: 8px;
+}
+#header #rightSide {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+#header #rightSide #menu {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row-reverse wrap;
+  color: #ffffff;
+  font-size: 20px;
+}
+#header #rightSide #menu .menuOptions {
+  cursor: pointer;
+}
+#header #rightSide #menu #inPage {
+  font-size: 24px;
+  border-bottom: 2px solid white;
+}
+#header #rightSide #logo {
+  width: 25%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header #rightSide #logo #drFamHeaderLogo {
+  width: 100%;
+  height: 100%;
+}
