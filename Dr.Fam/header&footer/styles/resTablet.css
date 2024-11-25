@@ -1,0 +1,90 @@
+@media (min-width: 500px) and (max-width: 750px) {
+  #header #leftSide {
+    width: 30%;
+  }
+  #header #leftSide #auth {
+    width: 80%;
+    height: 40%;
+    font-size: 14px;
+    left: 20px;
+    top: 25px;
+    justify-content: center;
+    gap: 10px;
+  }
+  #header #rightSide {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    gap: 0;
+  }
+  #header #rightSide #logo {
+    height: 40%;
+  }
+  #header #rightSide #menu {
+    width: 70%;
+    font-size: 13px;
+  }
+  #header #rightSide #menu #inPage {
+    font-size: 13px;
+  }
+}
+
+
+@media (min-width: 750px) and (max-width: 1024px) {
+  #header #leftSide {
+    width: 30%;
+  }
+  #header #leftSide #auth {
+    width: 70%;
+    height: 50%;
+    font-size: 16px;
+    left: 20px;
+    top: 20px;
+    justify-content: center;
+    gap: 10px;
+  }
+  #header #rightSide {
+    width: 70%;
+    display: flex;
+    gap: 20px;
+  }
+  #header #rightSide #logo {
+    height: 70%;
+  }
+  #header #rightSide #menu {
+    width: 60%;
+    font-size: 16px;
+  }
+  #header #rightSide #menu #inPage {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  #header #leftSide {
+    width: 30%;
+  }
+  #header #leftSide #auth {
+    width: 50%;
+    height: 50%;
+    font-size: 16px;
+    left: 20px;
+    top: 20px;
+    justify-content: center;
+    gap: 10px;
+  }
+  #header #rightSide {
+    width: 70%;
+    display: flex;
+    gap: 50px;
+  }
+  #header #rightSide #logo {
+    height: 70%;
+  }
+  #header #rightSide #menu {
+    width: 50%;
+    font-size: 16px;
+  }
+  #header #rightSide #menu #inPage {
+    font-size: 16px;
+  }
+}

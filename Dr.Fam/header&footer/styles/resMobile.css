@@ -1,13 +1,13 @@
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   #header {
     height: 50px;
   }
   #header #leftSide #auth {
-    width: 90%;
-    height: 80%;
+    width: 80%;
+    height: 60%;
     left: 10px;
-    top: 5px;
-    font-size: 1em;
+    top: 10px;
+    font-size: 12px;
     gap: 5px;
   }
   #header #rightSide {
@@ -29,9 +29,6 @@
     background-color: #0a9e20;
     padding: 5px;
     border-radius: 8px;
-  }
-  #header #rightSide #menu #menuOptions {
-    border-bottom: 1px solid #333;
   }
   #header #rightSide #menu.show{
     display: flex;

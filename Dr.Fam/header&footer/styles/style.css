@@ -77,7 +77,7 @@ body {
   justify-content: space-between;
   flex-flow: row-reverse wrap;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 #header #rightSide #menu .menuOptions {
   cursor: pointer;
