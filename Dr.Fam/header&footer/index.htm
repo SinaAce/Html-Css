@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DrFamHeader</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/resMobile.css" />
   </head>
   <body>
     <div id="header">
       <div id="leftSide">
-        <div id="auth"></div>
-        <div id="searchBox"></div>
+        <div id="auth">
+          <img id="authIcon" src="./icons/user.svg" alt="manIcon" />
+          <div id="login">ثبت نام / ورود</div>
+        </div>
+        <!-- <div id="searchBox"></div> -->
       </div>
       <div id="rightSide">
+        <div id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <div id="menu">
-            <span class="menuOptions" id="inPage" style="font-family: yekanB;">خانه</span>
-            <span class="menuOptions">پزشکان</span>
-            <span class="menuOptions">فم نیوز</span>
-            <span class="menuOptions">مراکز درمانی</span>
-            <span class="menuOptions">مجله پزشکی</span>
+          <span class="menuOptions" id="inPage" style="font-family: yekanB"
+            >خانه</span
+          >
+          <span class="menuOptions">پزشکان</span>
+          <span class="menuOptions">فم نیوز</span>
+          <span class="menuOptions">مراکز درمانی</span>
+          <span class="menuOptions">مجله پزشکی</span>
         </div>
         <div id="logo">
           <img
@@ -28,4 +42,5 @@
       </div>
     </div>
   </body>
+  <script src="./script/script.js"></script>
 </html>

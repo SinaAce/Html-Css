@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  #header {
+    height: 50px;
+  }
+  #header #leftSide #auth {
+    width: 90%;
+    height: 80%;
+    left: 10px;
+    top: 5px;
+    font-size: 1em;
+    gap: 5px;
+  }
+  #header #rightSide {
+    flex-flow: row-reverse;
+  }
+  #header #rightSide #logo {
+    width: 90%;
+    height: 100%;
+  }
+  #header #rightSide #hamburger {
+    display: flex;
+  }
+  #header #rightSide #menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #0a9e20;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  #header #rightSide #menu #menuOptions {
+    border-bottom: 1px solid #333;
+  }
+  #header #rightSide #menu.show{
+    display: flex;
+  }
+}
