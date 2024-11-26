@@ -1,0 +1,160 @@
+@font-face {
+  src: url("./../font/B\ Yekan+.ttf");
+  font-family: "yekan";
+}
+@font-face {
+  src: url("./../font/B\ Yekan+\ Bold.ttf");
+  font-family: "yekanB";
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1440px;
+  font-family: yekan;
+  direction: rtl;
+}
+#content {
+  height: calc(100% - 388px);
+}
+#footer {
+  height: 388px;
+  background-color: #0d092c;
+  color: white;
+}
+#footer #flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  height: 348px;
+}
+#footer #right {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-flow: column;
+}
+#footer #right #footerLogo,
+#footerMailAddress,
+#footerPhoneNumber,
+#footerLocation {
+  width: 95%;
+}
+#footer #right #footerMailAddress,
+#footerPhoneNumber,
+#footerLocation {
+  height: 45px;
+  display: flex;
+}
+#footer #right .icon {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer #right .text {
+  color: #ccc;
+  width: 85%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#footer #right #footerLogo {
+  height: 110px;
+}
+#footer #right #footerLogo img {
+  width: 100%;
+  height: 100%;
+}
+#footer #middle {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#footer #middle .shortcuts {
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#footer #middle .shortcuts ul {
+  margin-top: 30px;
+  list-style: none;
+  margin-right: -100px;
+}
+#footer #middle .shortcuts ul li:first-child {
+  font-size: 1.25em;
+  font-family: yekanB;
+}
+#footer #middle .shortcuts ul li {
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+#footer #left {
+  border: 1px solid yellow;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-flow: column;
+}
+#footer #left #topLeft,
+#bottomLeft {
+  border: 1px solid yellow;
+  width: 95%;
+}
+#footer #left #topLeft {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer #left #topLeft form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  gap: 10px;
+}
+#footer #left #topLeft #mailInputBox {
+  width: 90%;
+  height: 50px;
+  border-radius: 8px;
+  outline-style: none;
+  direction: ltr;
+  padding: 0 15px;
+}
+#footer #left #topLeft form #sub{
+    width: 87px;
+    height: 34px;
+    border-radius: 8px;
+    position: absolute;
+    left: 310px;
+    bottom: 276px;
+    border-style: none;
+    background-color: #13BF2C;
+    color: white;
+    font-size: 17px;
+}
+#footer #left #bottomLeft {
+  height: 50%;
+}
+#footer #bottom {
+  height: 40px;
+  background-color: #241f47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+}
